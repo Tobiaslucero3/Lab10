@@ -116,7 +116,7 @@ protected final class Tree
     
     public Tree(int value)
     {
-	//TODO
+		this.value = value;
     }
     
     public int getValue()

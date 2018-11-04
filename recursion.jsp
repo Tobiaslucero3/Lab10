@@ -121,7 +121,7 @@ protected final class Tree
     
     public int getValue()
     {
-	`	return -1;
+	`	return value;
     }
     
     public ArrayList<Tree> getChildren()

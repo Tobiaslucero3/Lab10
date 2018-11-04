@@ -162,8 +162,9 @@ public int nnaryTreeSize(int branchingFactor, int height)
     {
 		return 1;
     }
-    return -1;
-	//TODO
+    
+    int nodes = (int)(Math.pow(branchingFactor,height-1));
+    return nodes + nnaryTreeSize(branchingFactor,height-1);
 }
 
     /**

@@ -28,7 +28,13 @@
    */
 public int factorial(int value)
 {
-     return -1;
+	if(value==1)
+	{
+		return 1;
+	}
+	//TODO
+	
+	return factorial(value-1)*value;
 }
 	 /*
        * Here is the base case (ending condition): value == 1.
